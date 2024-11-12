@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/noetic/include/**",
+        "/home/huro/ros1_ws/devel/include/**",
+        "/home/huro/ros1_ws/src/ros_lecture/externals/BehaviorTree.CPP/include/**",
+        "/home/huro/ros1_ws/src/cv_image_publisher/include/**",
+        "/home/huro/ros1_ws/src/ros_lecture/externals/json_transport/json_transport/include/**",
+        "/home/huro/ros1_ws/src/ros_lecture/externals/obstacle_detector/include/**",
+        "/home/huro/ros1_ws/src/ros_lecture/externals/navigation_layers/range_sensor_layer/include/**",
+        "/home/huro/ros1_ws/src/ros_lecture/ros_lecture_base/include/**",
+        "/home/huro/ros1_ws/src/ros_lecture/externals/navigation_layers/social_navigation_layers/include/**",
+        "/home/huro/ros1_ws/src/time_delay_msgs/include/**",
+        "/home/huro/ros1_ws/src/twist_switch_manager/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
