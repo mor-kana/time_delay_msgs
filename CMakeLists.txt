@@ -66,6 +66,7 @@ add_message_files(
   FILES
   ElapsedTime.msg
   WaveVariable.msg
+  WaveVariable2.msg
 )
 
 generate_messages(
