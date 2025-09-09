@@ -13,6 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
+  sensor_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -67,11 +68,14 @@ add_message_files(
   ElapsedTime.msg
   WaveVariable.msg
   WaveVariable2.msg
+  ImageCoord.msg
 )
 
 generate_messages(
   DEPENDENCIES
   std_msgs
+  geometry_msgs
+  sensor_msgs
 )
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
@@ -105,7 +109,7 @@ generate_messages(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES time_delay_msgs
- CATKIN_DEPENDS geometry_msgs roscpp rospy std_msgs message_runtime
+ CATKIN_DEPENDS geometry_msgs roscpp rospy std_msgs message_runtime sensor_msgs
 #  DEPENDS system_lib
 )
 
